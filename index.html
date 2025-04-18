@@ -1,48 +1,111 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Elite Play IPTV</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Arial', sans-serif;
-      background: black;
-      color: white;
-      text-align: center;
-      padding: 40px 20px;
-    }
-    .logo {
-      max-width: 200px;
-      margin-bottom: 20px;
-    }
-    .button {
-      background: gold;
-      color: black;
-      padding: 15px 30px;
-      font-size: 18px;
-      border: none;
-      border-radius: 10px;
-      text-decoration: none;
-      font-weight: bold;
-      box-shadow: 0 0 15px gold;
-    }
-    .whatsapp {
-      margin-top: 30px;
-      font-size: 18px;
-      color: white;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Play IPTV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #f2f2f2;
+        }
+        header {
+            background-color: #000;
+            padding: 20px;
+            text-align: center;
+            color: gold;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        h2 {
+            font-size: 1.8em;
+        }
+        .content {
+            text-align: center;
+            padding: 50px;
+        }
+        .content p {
+            font-size: 1.2em;
+        }
+        .button {
+            background-color: #ffcc00;
+            color: #000;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            margin: 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #e6b800;
+        }
+        .plans {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+        .plan {
+            background-color: #1a1a1a;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            width: 250px;
+            text-align: center;
+        }
+        .plan h3 {
+            color: gold;
+        }
+        .plan p {
+            font-size: 1.1em;
+        }
+        .footer {
+            background-color: #000;
+            color: #f2f2f2;
+            padding: 10px;
+            text-align: center;
+            font-size: 1.1em;
+        }
+        .footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-  <img class="logo" src="https://raw.githubusercontent.com/eliteplaytv/elite-play-iptv-site/main/logo.png" alt="Elite Play Logo" />
-  <h1>Assine o Elite Play IPTV</h1>
-  <p>Tenha acesso aos melhores canais, filmes e séries com qualidade premium!</p>
-  <a class="button" href="https://pay.sigma.st/#/checkout/241KEJvDmx/oQ1YZ4MlLO" target="_blank">Assinar Agora</a>
-  <div class="whatsapp">
-    📲 Fale conosco: <br />
-    <a style="color: gold;" href="https://wa.me/5561991866658" target="_blank">Clique para abrir no WhatsApp</a>
-  </div>
+
+<header>
+    <h1>Elite Play IPTV</h1>
+    <h2>Seu entretenimento sem limites</h2>
+</header>
+
+<div class="content">
+    <p>Oferecemos o melhor conteúdo de IPTV, com planos de alta qualidade e suporte excepcional!</p>
+    <a href="https://wa.me/5561991866658" class="button">Entre em contato pelo WhatsApp</a>
+</div>
+
+<div class="plans">
+    <div class="plan">
+        <h3>Plano Básico</h3>
+        <p>R$49,90/mês</p>
+        <a href="https://pay.sigma.st/#/checkout/241KEJvDmx/oQ1YZ4MlLO" class="button">Assinar</a>
+    </div>
+    <div class="plan">
+        <h3>Plano Premium</h3>
+        <p>R$89,90/mês</p>
+        <a href="https://pay.sigma.st/#/checkout/241KEJvDmx/oQ1YZ4MlLO" class="button">Assinar</a>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Entre em contato pelo WhatsApp: <a href="https://wa.me/5561991866658">Clique aqui</a></p>
+</div>
+
 </body>
 </html>
