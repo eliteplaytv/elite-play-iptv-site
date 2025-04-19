@@ -59,6 +59,8 @@
             border-radius: 8px;
             width: 250px;
             text-align: center;
+            flex: 1 1 45%;
+            box-sizing: border-box;
         }
         .plan h3 {
             color: gold;
@@ -76,6 +78,28 @@
         .footer a {
             color: #ffcc00;
             text-decoration: none;
+        }
+
+        /* Responsividade para dispositivos móveis */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            .button {
+                font-size: 1em;
+                padding: 12px 24px;
+            }
+            .plans {
+                flex-direction: column;
+                align-items: center;
+            }
+            .plan {
+                width: 80%;
+                margin: 10px 0;
+            }
         }
     </style>
 </head>
